@@ -1,0 +1,311 @@
+
+
+
+*{	
+	margin:0;
+	padding:0;
+}
+body{
+	background: url(../img/tram.jpg) fixed repeat center top;
+	background-color: #f8f8f8;
+	background-size: cover;
+	background-blend-mode: overlay;
+	font-family:najmacode;
+	direction:rtl;
+}
+
+.header{width:60%;margin:0 auto;height: 90px;}
+.menu {height: 50px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;}
+.menu ul{}
+.menu ul li {
+    float: right;
+    margin-left: -10px;
+    padding: 10px;   
+	list-style: none;
+}
+.menu ul li a{    
+	    text-decoration: none;
+    color: #5fcf80;
+    border: 2px solid #5fcf80;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+	transition:0.5s;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-o-transition:0.5s;
+	}
+.menu ul li a:hover{background:#5fcf80;color:#f8f8f8;}
+.logo {
+    float: right;
+    height: 50px;    
+	margin-top: 20px;margin-right: 20px;
+}
+.logo a {
+color: #fff;
+    padding: 7px;
+    font-size: 29px;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #5fcf80;
+ }
+.re {
+    width: 60%;
+    margin: 0 auto;
+    clear: both;
+    margin-top: 22px;
+}
+.re h2{
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding: 8px;
+}
+.re form {
+    background: #fff;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.form_group {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;    
+	margin-bottom: 30px;
+}
+
+.form_group input{
+padding: 10px;
+    width: 100%;
+    margin: 0 auto;	font-family:najmacode;
+    float: left;
+    text-align: right;
+    font-size: 17px;
+    border-radius: 20px;
+    color: #050406;
+    border: 2px solid #5fcf80;
+	}
+	.form_group input:focus {
+    background: #fafafa;
+    border-color: #5fcf80;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(83, 197, 70, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(78, 203, 88, 0.6);
+}
+.re input[type="submit"] {
+text-align: center;
+    padding: 10px;	font-family:najmacode;
+    width: 81%;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: #5fcf80;
+    color: #fff;
+    border: none;
+    margin-left: 16%;
+}
+.footer {
+    background: #fff;
+    padding: 10px;
+	margin-top: 20px;
+	
+}
+.fo_c {
+    text-align: center;
+    font-size: 18px;
+    bottom: 0;
+}
+
+/*===== error*/
+ .error {
+    text-align: center;
+    padding: 5px;
+    background: #fff;
+    border: 2px solid #ef3a3a;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 20%;
+    margin-bottom: 5px;
+}
+
+.succ {
+     text-align: center;
+    padding: 10px;
+    background: #43e684;
+    border: 2px solid #08bb50;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 20%;
+    margin-bottom: 5px;
+}
+ 
+
+#menu-nav {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+/* navigation bar */
+#navigation-bar {width:100%;}
+#navigation-bar ul {margin:0; padding:0; list-style:none; width:100%; border-radius:4px; overflow:hidden;}
+#navigation-bar li {float: right;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 16%;}
+#navigation-bar a {
+  color:#848484; font-size:20px; text-decoration:none; text-align:center;
+  width:100%;
+  padding:20px 0;
+  display:block; position:relative;
+  transition: all 0.3s ease;
+}
+#navigation-bar a:hover {color:#5fcf80;}
+/*  #navigation-bar li:first-child a {border-radius:4px 0 0 4px;}
+#navigation-bar li:last-child a {border-radius:0 4px 4px 0;}  */
+#navigation-bar a:before {
+  content:'';
+  transition:all .4s ease-in-out;
+  position:absolute; right:50%; left:50%; bottom:0;
+  display:block;
+  
+  height:2px;
+  background-color:#5fcf80;
+} 
+#navigation-bar li:hover a:before, #navigation-bar a:hover:before {right:0; left:0;}
+#navigation-bar span {display:block;}
+
+
+/*معلومات المستخدم*/
+#content h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+#content .info {
+    background: #fff;
+    margin: 0 auto;
+    width: 60%;
+    padding: 10px;
+}
+.menuinfo {
+    border: 2px solid #a836ff;
+    border-radius: 3px;
+    padding: 10px;
+	text-align: right;
+    direction: rtl;
+}
+.menuinfo li {
+list-style: none;
+}
+img.avatarimg {
+    border: 3px solid #aa3aff;
+    float: right;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+a.avtup {
+    padding: 5px;
+    width: 100%;
+    height: 13px;
+    margin-bottom: 14px;
+    text-decoration: none;
+    color: #ab3aff;
+}
+
+#content {
+    background: #fff;
+    width: 55%;text-align: center;
+    margin-top: 15px !important;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 15px;
+}
+.listuser {
+    margin-bottom: 12px;
+    padding: 5px;
+    display: inline-block;
+    border: 2px solid #5fcf80;
+    margin-right: 2px !important;
+	text-align: center;
+}
+img.avatarimage {
+    border: 3px solid #aa3aff;
+    float: right;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.usera{display: block;text-decoration: none;}
+
+ 
+.invitation {
+background: #eee;
+    width: 25%;
+    border-radius: 5px;
+    padding: 16px;
+    border: 2px solid #ddd;
+    margin: 0 auto;
+}
+.buttoninvit a {   
+background: #ddd;
+    position: relative;
+    padding: 3px 12px 0px 12px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    color: #535653;
+    text-decoration: none;
+	transition:0.5s;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-o-transition:0.5s;}
+.buttoninvit a:hover {background: #837e7e;    color: #e2e4e2;}
+	.sender {
+    text-align: right;
+}
+.notifinvit {
+     background: #e82f2f;
+    width: 20px;
+    border: 5px double #ecf0f1;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    left: 630px;
+    top: 14px;
+}
+.buttondelete a {
+    text-decoration: none;
+    border: 2px solid #ddd;
+    color: #888b89;
+    padding: 1px;
+    float: left;
+    border-radius: 5px;
+    margin-top: -20px;
+    margin-left: 5px;
+	transition:0.5s;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-o-transition:0.5s;}
+.buttondelete a:hover {background: #f43333;    border: 2px solid #f43333;
+    color: #ffffff;}
+
+.formaa {
+    padding: 11px;
+    margin: 3px;
+    text-align: right;
+    width: 50%;
+    border: 1px solid #5fcf80;
+    border-radius: 20px;
+}
+
+
+
+
